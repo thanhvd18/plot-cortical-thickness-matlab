@@ -1,4 +1,4 @@
-addpath('./gifti') %change to your gifti toolbox path
+addpath('D:\Thanh\ADNI\matlab\gifti') %change to your gifti toolbox path
 path_annot_lh = 'brainspace/lh.Schaefer2018_200Parcels_7Networks_order.annot';
 path_annot_rh = 'brainspace/rh.Schaefer2018_200Parcels_7Networks_order.annot';
 

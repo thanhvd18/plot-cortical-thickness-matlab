@@ -2,7 +2,7 @@ clc,clear,close all;
 
 regions = 202;
 % corticalThicknesses =  rand(regions,1);
-load('sample.mat')
+load('sample1.mat')
 corticalThicknesses = reshape(corticalThicknesses,regions,1);
 cmin = min(corticalThicknesses(:));
 cmax = max(corticalThicknesses(:));

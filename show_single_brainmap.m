@@ -36,7 +36,6 @@ i=3;
       w_right_cdata(find(gg_lh1_cdata == atlas_id(j))) = cdata_i(2*j);
     end
     final_cdata = [w_left_cdata;w_right_cdata];
-    final_cdata = normalize(final_cdata,'range',[-1,1]);
     gg_mesh.cdata = final_cdata;
     gg_lh.cdata = final_cdata(1:size(final_cdata,1)/2);
     gg_rh.cdata = final_cdata(size(final_cdata,1)/2+1:end);

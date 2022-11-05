@@ -11,5 +11,5 @@
 - Change your cortical thickness data and brain parcellation
 - Run main.m
 - Result with random cortical thickness in Schaefer atlas with 200 regions: 
-![](figures/example.png)
+![](figures/example_realdata.png)
 
