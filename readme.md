@@ -1,6 +1,6 @@
 # Plot cortical thickness in brainspace (FreeSurfer) with customize color map
 
-## Requirement
+## Requirements
 
 - [gifti](https://github.com/gllmflndn/gifti)
 - read_notation (from [freesurfer](https://surfer.nmr.mgh.harvard.edu/))
