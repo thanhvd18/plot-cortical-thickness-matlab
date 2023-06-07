@@ -1,12 +1,16 @@
-
+% clc,
+% clear,
+close all;
+% x,y,z =>each voxel  => MRI (NIFTY)
+% node, edge => gifty 
 
 regions = 202;
 % corticalThicknesses =  rand(regions,1);
 % load('sample.mat')
-% mean = readtable("mean.layer.0.csv", opts);
-%prepare .csv 
-table = readtable('mean.layer.1.csv')
-corticalThicknesses = double(table2array(table(:,2)));
+
+corticalThicknesses = rand(202,1);
+%  double(table2array(mean(:,2)));
+
 corticalThicknesses = reshape(corticalThicknesses,regions,1);
 cmin = min(corticalThicknesses(:));
 cmax = max(corticalThicknesses(:));
